@@ -1,19 +1,3 @@
-Package: com.twickd.sarahh12099.youtube-reborn
-Name: YouTube Reborn
-Version: 2.0.0.4
-Architecture: iphoneos-arm
-Description: YouTube Reborn
-Maintainer: PinCode <pbradjan94@gmail.com>
-Author: sarahh12099
-Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: debs/youtube-reborn.deb
-Size: 209896
-MD5sum: 4698532c90ffff740855605e2a671da1
-SHA1: 69c488d50b280450a6492f4e89d1ab92328cc01c
-SHA256: 60c5d37603aa1dbc19d938167d20bd863eb9230dc9f7e3ed93491ae4bd6a2d36
-SHA512: fc665d8a3a0c050473c23ccf39ab5e80db4f553ce711dd1751da3bda16f6f5f9f61761af507677afea0f2dc61136a48738b006fe7d0916d03e22771fbad66174
-
 Package: com.ichitaso.quickcc
 Name: QuickCC
 Version: 1.0.5
