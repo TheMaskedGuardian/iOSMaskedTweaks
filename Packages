@@ -23,7 +23,7 @@ Maintainer: PinCode <pbradjan94@gmail.com>
 Author: ichitaso
 Section: Tweak
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.ichitaso.quickcc_1.0.5_iphoneos-arm.deb
+Filename: debs/quickcc.deb
 Size: 64086
 MD5sum: da316e539a81a8ad555f1537239635b8
 SHA1: 28752a510e3fc4ea93fd76001b5dd47796fd1d24
@@ -39,7 +39,7 @@ Maintainer: PinCode <pbradjan94@gmail.com>
 Author: Sam Bingner
 Section: System
 Depends: mobilesubstrate
-Filename: debs/preferenceloader_2.2.6.deb
+Filename: debs/preferenceloader.deb
 Size: 36414
 MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
 SHA1: c1d547036234756c5e75a633393d4ffa791b1126
