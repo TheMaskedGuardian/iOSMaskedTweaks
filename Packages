@@ -23,7 +23,7 @@ Maintainer: PinCode <pbradjan94@gmail.com>
 Author: ichitaso
 Section: Tweak
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/youtube-reborn.deb
+Filename: debs/quickcc.deb
 Size: 64086
 MD5sum: da316e539a81a8ad555f1537239635b8
 SHA1: 28752a510e3fc4ea93fd76001b5dd47796fd1d24
