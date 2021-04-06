@@ -14,6 +14,22 @@ SHA1: 69c488d50b280450a6492f4e89d1ab92328cc01c
 SHA256: 60c5d37603aa1dbc19d938167d20bd863eb9230dc9f7e3ed93491ae4bd6a2d36
 SHA512: fc665d8a3a0c050473c23ccf39ab5e80db4f553ce711dd1751da3bda16f6f5f9f61761af507677afea0f2dc61136a48738b006fe7d0916d03e22771fbad66174
 
+Package: com.ichitaso.quickcc
+Name: QuickCC
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: Expands Wifi and Bluetooth connectivity in Control Center
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: ichitaso
+Section: Tweak
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.ichitaso.quickcc_1.0.5_iphoneos-arm.deb
+Size: 64086
+MD5sum: da316e539a81a8ad555f1537239635b8
+SHA1: 28752a510e3fc4ea93fd76001b5dd47796fd1d24
+SHA256: 408d3012e98ab4bc55a808211fed795bf916799ad95477a524d04db0c55b4e9b
+SHA512: 3b3115aeb2c3b406530433e2fb398618b5549088463c76c83a5a97d117c416f7ee7fd2f624ae2eba3e47528c65bbe65abc631de4464920deb482ec93f6cfd19b
+
 Package: preferenceloader
 Name: PreferenceLoader
 Version: 2.2.6
@@ -29,19 +45,3 @@ MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
 SHA1: c1d547036234756c5e75a633393d4ffa791b1126
 SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
 SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
-
-Package: com.ichitaso.quickcc
-Name: QuickCC
-Version: 1.0.5
-Architecture: iphoneos-arm
-Description: Expands Wifi and Bluetooth connectivity in Control Center
-Maintainer: PinCode <pbradjan94@gmail.com>
-Author: ichitaso
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.ichitaso.quickcc_1.0.5_iphoneos-arm.deb
-Size: 64086
-MD5sum: da316e539a81a8ad555f1537239635b8
-SHA1: 28752a510e3fc4ea93fd76001b5dd47796fd1d24
-SHA256: 408d3012e98ab4bc55a808211fed795bf916799ad95477a524d04db0c55b4e9b
-SHA512: 3b3115aeb2c3b406530433e2fb398618b5549088463c76c83a5a97d117c416f7ee7fd2f624ae2eba3e47528c65bbe65abc631de4464920deb482ec93f6cfd19b
