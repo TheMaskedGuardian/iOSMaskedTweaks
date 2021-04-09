@@ -45,3 +45,35 @@ MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
 SHA1: c1d547036234756c5e75a633393d4ffa791b1126
 SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
 SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
+
+Package: org.hacx.hacxdaemon
+Name: hAcx Daemon
+Version: 3.6
+Architecture: iphoneos-arm
+Description: hAcx Daemon includes various helper functions for @hAcx tweaks & apps
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Yaniv Danan (hAcx)
+Section: Addons
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/hAcxDaemon.deb
+Size: 185250
+MD5sum: b17a2eea8eb0edb10f764dc36d69b5c6
+SHA1: e2da6a26dfa3c497e21bb8851b70012fdfd0322b
+SHA256: 713d3b1d9618765fec2e023623b218835f1ce88011eeb923d1082fda095a2ad6
+SHA512: 1a2fd70fa72586b3fc9220dd53103058de65e2bf4a61ab4e2d0df29331c8cab584fa3bf050d0efb7a32f9ea00f5d0947bc9f0b45a3a9aef6912cc6a40cc3be62
+
+Package: org.hacx.superrecorderxplus
+Name: Super Recorder X+ (iOS 12,13)
+Version: 3.20-8
+Architecture: iphoneos-arm
+Description: Native Call Recorder & Voice Amplifier for iOS 12,13
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: hAcx
+Section: Tweaks
+Depends: firmware (>= 12.0), mobilesubstrate, org.hacx.hacxdaemon (>= 3.6)
+Filename: debs/SuperRecorderX+.deb
+Size: 5835052
+MD5sum: c971f78c22a25efd3347ce898fbe9d48
+SHA1: 3bb4f42297c3b67a9945d020e2ae855a5ceafd45
+SHA256: 4cf35732a93ee7684cac629c44f2da10726eeb583a3f6e278bd8b031326dff6a
+SHA512: c5f9f774606ac62f8958ed374d51e8520f668d92be3311a0e5fbd3834eda4f9393e1e4aff2543af153b41c131ec43b47b9162d964aad77b690dc4db2b4d5d024
