@@ -1,34 +1,53 @@
 Package: com.twickd.sarahh12099.youtube-reborn
 Name: YouTube Reborn
-Version: 2.0.0.3
+Version: 1.0.4.2
 Architecture: iphoneos-arm
 Description: YouTube Reborn
 Maintainer: PinCode <pbradjan94@gmail.com>
-Author: sarahh12099
-Section: Tweak
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
-Filename: debs/youtube-reborn.deb
-Size: 209896
-MD5sum: 4698532c90ffff740855605e2a671da1
-SHA1: 69c488d50b280450a6492f4e89d1ab92328cc01c
-SHA256: 60c5d37603aa1dbc19d938167d20bd863eb9230dc9f7e3ed93491ae4bd6a2d36
-SHA512: fc665d8a3a0c050473c23ccf39ab5e80db4f553ce711dd1751da3bda16f6f5f9f61761af507677afea0f2dc61136a48738b006fe7d0916d03e22771fbad66174
+Author: SarahH12099
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Conflicts: com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers
+Filename: debs/com.youtube-reborn_1.0.4.2.deb
+Size: 54432
+MD5sum: 92433c57f18665c37680eac5f0bb9881
+SHA1: 1aa28d378f6006ba4319f9aa6ba4a54eb86515ee
+SHA256: be3e11e095a824984bbf5aba5e7ec832d228a7e23a579d366d3d16502929c3e5
+SHA512: 304104f3226116e82f4e4fa87c1991db32b353ed96475a5a31e4ab97ba3977546d8af942f22a510b3617652f0abbc9d0118f70ee7c5bc2a7e608d8160cdbaa84
 
-Package: com.ichitaso.quickcc
-Name: QuickCC
-Version: 1.0.5
+Package: mobilesubstrate
+Name: Cydia Substrate
+Version: 0.9.7111
 Architecture: iphoneos-arm
-Description: Expands Wifi and Bluetooth connectivity in Control Center
+Description: powerful code insertion platform
 Maintainer: PinCode <pbradjan94@gmail.com>
-Author: ichitaso
-Section: Tweak
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/quickcc.deb
-Size: 64086
-MD5sum: da316e539a81a8ad555f1537239635b8
-SHA1: 28752a510e3fc4ea93fd76001b5dd47796fd1d24
-SHA256: 408d3012e98ab4bc55a808211fed795bf916799ad95477a524d04db0c55b4e9b
-SHA512: 3b3115aeb2c3b406530433e2fb398618b5549088463c76c83a5a97d117c416f7ee7fd2f624ae2eba3e47528c65bbe65abc631de4464920deb482ec93f6cfd19b
+Author: Jay Freeman (saurik)
+Section: System
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Filename: debs/mobilesubstrate_0.9.7111.deb
+Size: 2531870
+MD5sum: 21846e52f68deacef11355fb0f90e3e1
+SHA1: d2388b511c6a683222c6ace60e9d20bd0b036d8d
+SHA256: e72704e8cc69239939b78ab3706f43f9b449425270bacc3cd8a4160b6986e8c0
+SHA512: 0a2601d4b981b658ae5aab5dcf79ee9eb972753236b49b444bed0296c2dfa665f5ee2d82203d08f712ec947ab3feb8018809b7a1f905c54ca6dd3a7d627acfcc
+
+Package: com.saurik.substrate.safemode
+Name: Substrate Safe Mode
+Version: 0.9.6005
+Architecture: iphoneos-arm
+Description: safe mode safety extension (safe)
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Jay Freeman (saurik)
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Filename: debs/com.saurik.substrate.safemode_0.9.6005.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
+SHA512: 96bc00fdd620d18beff17ff73835baf264832f9ada2eaf01b641362a8a9641d2d31e48c91f1c3062d09a62c6cf37903cf511d5c6a2e03e1427d33927197fc1f0
 
 Package: preferenceloader
 Name: PreferenceLoader
@@ -39,41 +58,220 @@ Maintainer: PinCode <pbradjan94@gmail.com>
 Author: Sam Bingner
 Section: System
 Depends: mobilesubstrate
-Filename: debs/preferenceloader.deb
+Filename: debs/preferenceloader_2.2.6.deb
 Size: 36414
 MD5sum: 551c39b9d6d58be5ad82e81a59a1715f
 SHA1: c1d547036234756c5e75a633393d4ffa791b1126
 SHA256: 335fff25ff13021889ba856ce84fbc23ba25569f1c6cc65a3e113b433b1ed60f
 SHA512: 8b1010e1bc02c722edf248cb4ad74ed03990334f290686450eff2d2354603bc6148298c478e98cf270ae875a2f2119598e3ba4cdfd0e0b1c6c298596ac8d7be3
 
-Package: org.hacx.hacxdaemon
-Name: hAcx Daemon
-Version: 3.6
+Package: ws.hbang.common
+Name: Cephei
+Version: 1.16
 Architecture: iphoneos-arm
-Description: hAcx Daemon includes various helper functions for @hAcx tweaks & apps
+Description: Support library for tweaks
 Maintainer: PinCode <pbradjan94@gmail.com>
-Author: Yaniv Danan (hAcx)
-Section: Addons
-Depends: mobilesubstrate, firmware (>= 8.0)
-Filename: debs/hAcxDaemon.deb
-Size: 185250
-MD5sum: b17a2eea8eb0edb10f764dc36d69b5c6
-SHA1: e2da6a26dfa3c497e21bb8851b70012fdfd0322b
-SHA256: 713d3b1d9618765fec2e023623b218835f1ce88011eeb923d1082fda095a2ad6
-SHA512: 1a2fd70fa72586b3fc9220dd53103058de65e2bf4a61ab4e2d0df29331c8cab584fa3bf050d0efb7a32f9ea00f5d0947bc9f0b45a3a9aef6912cc6a40cc3be62
+Author: HASHBANG Productions
+Section: Development
+Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
+Filename: debs/ws.hbang.common_1.16.deb
+Size: 237912
+MD5sum: 8e88f31a35e39e72ad670c8269a3630a
+SHA1: 0e100a44b977053deb2543317c2ccd4ff02ca3c8
+SHA256: b9691fec11afd5bb32fa7bae0efe5bea997566645ef9fe59f6c23f6b72ea3ea7
+SHA512: 34cf9d10660922273cb6e71d0341b60e44a16ddb767ae26bcf0b36a38b983a97357380a18a44633cc0f0dca3ca80c3b371c45cdf8a13d9e3799c88b5a27cc1d3
 
-Package: org.hacx.superrecorderxplus
-Name: Super Recorder X+ (iOS 12,13)
-Version: 3.20-8
+Package: com.rpetrich.rocketbootstrap
+Name: RocketBootstrap
+Version: 1.0.10~beta1
 Architecture: iphoneos-arm
-Description: Native Call Recorder & Voice Amplifier for iOS 12,13
+Description: Support library allowing tweaks to communicate with sandboxed processes
 Maintainer: PinCode <pbradjan94@gmail.com>
-Author: hAcx
+Author: Ryan Petrich
 Section: Tweaks
-Depends: firmware (>= 12.0), mobilesubstrate, org.hacx.hacxdaemon (>= 3.6)
-Filename: debs/SuperRecorderX+.deb
-Size: 5835052
-MD5sum: c971f78c22a25efd3347ce898fbe9d48
-SHA1: 3bb4f42297c3b67a9945d020e2ae855a5ceafd45
-SHA256: 4cf35732a93ee7684cac629c44f2da10726eeb583a3f6e278bd8b031326dff6a
-SHA512: c5f9f774606ac62f8958ed374d51e8520f668d92be3311a0e5fbd3834eda4f9393e1e4aff2543af153b41c131ec43b47b9162d964aad77b690dc4db2b4d5d024
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.10_beta1.deb
+Size: 38344
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+SHA512: 42b13ee05ce8766a02c3dc4779752c97a2bd379690c928101cc590a3204af7f322051badf1e810faf4ab2c0520d00abc1df8e4aea86473b2f7b69c213c900d8e
+
+Package: com.spotilife
+Name: Spotilife
+Version: 1.5
+Architecture: iphoneos-arm
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: julioverne
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: debs/com.spotilife_1.5.deb
+Size: 204092
+MD5sum: 8d4fb9efbbf292092a4eb49c7a7ce5ed
+SHA1: 3885ab381100045fefc6509d305b1a8a89b02f5c
+SHA256: cfa41cf69b517ea8b781979639b4749fb0bbd915a30dba3d5d12c8e111e62846
+SHA512: fa3c2d2120402960a826b09f21fdd9a1d39745b5e01aadf174fa311630081fef917c8a866961d348e35327443573f6659a25c3090e29dd7c66b1e56055947981
+
+Package: com.ichitaso.quickcc
+Name: QuickCC
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: Expands Wifi and Bluetooth connectivity in Control Center
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: ichitaso
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jakeashacks.realcc, com.ps.cconandoff
+Filename: debs/com.ichitaso.quickcc_1.0.5.deb
+Size: 64086
+MD5sum: da316e539a81a8ad555f1537239635b8
+SHA1: 28752a510e3fc4ea93fd76001b5dd47796fd1d24
+SHA256: 408d3012e98ab4bc55a808211fed795bf916799ad95477a524d04db0c55b4e9b
+SHA512: 3b3115aeb2c3b406530433e2fb398618b5549088463c76c83a5a97d117c416f7ee7fd2f624ae2eba3e47528c65bbe65abc631de4464920deb482ec93f6cfd19b
+
+Package: com.cydiageek.carrierizer
+Name: Carrierizer
+Version: 1.1.0-1
+Architecture: iphoneos-arm
+Description: Custom Text for your Carrier!
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: CydiaGeek
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Filename: debs/carrierizer_1.1.0-1.deb
+Size: 68232
+MD5sum: 2f6991abfbc5fb89ed4ae5fef9aa7f21
+SHA1: 31d8b02a55e3a68ec09d3f3cf4ef22b3258cffbd
+SHA256: 50d7f7131af887218a7e9288f1a8061b283f729cd727fbbcde88fe190d3ae4f9
+SHA512: d36699d2557685057da686ec4cbe26e9c33f829f7dd2f954f7366c4c2b216296540dd1608b49586f8efa3bf20012cf060e1e88b9cb1e99455df06a5787307bed
+
+Package: com.burritoz.dockify
+Name: Dockify
+Version: 1.2.2
+Architecture: iphoneos-arm
+Description: configure appearance of the Dock
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: burrit0z
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 8.0), ws.hbang.common (>= 1.13), preferenceloader
+Filename: debs/dockify_1.2.2.deb
+Size: 14552
+MD5sum: 82454ab8cbea89e59f8fc95173b35861
+SHA1: e8bb044e9958db052f3026778b569fbecbc4ba42
+SHA256: 8ebba5739c4fbf5f263db2819254c57c06b9bfdec57ce24e7f51432a96a7ec17
+SHA512: 586ec0d6e66d2c8a8711c39523b1f7e73b6e2e74e43a27cb3a42b4ed7d7de042f4b0f731203c600ad9aff4f1baf7fab08554632f0ad5d68997b79f924e6bf097
+
+Package: me.gmoran.eclipse12
+Name: Eclipse Dark Mode (iOS 12)
+Version: 6.1.2-2
+Architecture: iphoneos-arm
+Description: Customizable Dark Mode for iOS 12!
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Guillermo Morán (fr0st)
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 12.0), com.creaturesurvive.libcscolorpicker
+Filename: debs/me.gmoran.eclipse12_6.1.2-2.deb
+Size: 628452
+MD5sum: 1eda015d847a68638520aca8b05fbf91
+SHA1: 66bfbb0ce7712c31566a56ffa43ebdda5de9543c
+SHA256: 90ed096be65f7e5807648915f3a237c2857fdff5523b359523e4a06979b02e01
+SHA512: 75fc9b6f964639f8cd632398e32a761ced8506a8c5560bfa21e5d791c43af2d3b96042ea658175dfaf9d887ec8f5ae962cbbe3246658b0e8d67cbd7b0b219c75
+
+Package: applist
+Name: AppList
+Version: 1.5.16
+Architecture: iphoneos-arm
+Description: Allow extensions to read the list of installed apps
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Ryan Petrich
+Section: System
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: debs/applist_1.5.16.deb
+Size: 105098
+MD5sum: af1bdc77dd1805c249d416fa96957841
+SHA1: 843d2b873ad29a848c701af51f2e8a524770bc3a
+SHA256: b20901679ecd9a607636dd69d1c42fe074f6a3e8a5c21c20ecef893f1a9a4a7e
+SHA512: b7e71705b10ea05613dc01c28cf174517acc626a9866f4030365c3eb034a81b70927b1a59678f50ed24513b56785523e8e415f932970f48c1b30156048386d1e
+
+Package: com.creaturesurvive.libcscolorpicker
+Name: libCSColorPicker
+Version: 1.0
+Architecture: iphoneos-arm
+Description: A minimal color picker library for developers
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: CreatureSurvive
+Section: System
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0.deb
+Size: 83964
+MD5sum: c821ae6c4cea9ffd28fa0be98c40bab4
+SHA1: 0f21712ef24a1a83a596643b25c0e20249e9fa2c
+SHA256: 652a3e4d94a098e9e9e90cee7ba49b11af20f9e1100c6cdac6f1d4a54736ec08
+SHA512: 6a1fdfb943810e86704b0c6d9d4dcc4e2b2d2b39aa9889649bf1ac03d1428ff6325c749d9906e1047c92a3a623623fb613afec76cf65f81746df24baf2bfcdec
+
+Package: me.lightmann.quorra
+Name: Quorra
+Version: 1.1.2
+Architecture: iphoneos-arm
+Description: iOS 14's indicator dots for iOS 12 & 13
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Lightmann
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 12.0), firmware (<< 14.0), preferenceloader, com.rpetrich.rocketbootstrap
+Filename: debs/quorra_1.1.2.deb
+Size: 34138
+MD5sum: b09a9d957f9f42a8b7da808f04d19cb7
+SHA1: 2b925ab969fa0a7f2298378b40b5af143b5cfb4b
+SHA256: 7250e6e398205e609ce526d0adc73db906556ece65fc7bb36de7544c94a95ffa
+SHA512: 3d80dbe5700c21b0ded4c0b374d25c8fb89f59e47ce2e78822a973a5302878b4299e1a62863463f02cc0466e8890ff2586d37d2ddef492cc931d3a8adfe74f3b
+
+Package: me.conorthedev.shylabels13
+Name: ShyLabels
+Version: 1.4
+Architecture: iphoneos-arm
+Description: Hide your app labels when not scrolling — ShyLabels makes your homescreen more simplistic, whilst keeping the essential function of the app label.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: ConorTheDev
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/me.conorthedev.shylabels13_1.4.deb
+Size: 57866
+MD5sum: f147eb0f7ee5151fa5b37f3ee6ee77ac
+SHA1: 8f0fdf6d516245c1e2c07e3a1a10096b563935a7
+SHA256: 10695445cdb16332b33816cd48e4dec6000c52e9e94dffbc05cefe72c8bc7b86
+SHA512: 8e5ab449c3331ac0ba253b9d8d20370f3eb4838014e21269da3ad69fc3f6f0754e17a9f802bd0c243ce5ed35fe3f56eec89750d9d851ea6618f48fd49dcb75f3
+
+Package: com.spark.snowboard
+Name: SnowBoard
+Version: 1.4.12~Beta4
+Architecture: iphoneos-arm
+Description: Snowboard theming engine
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Spark
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/snowboard_1.4.12_Beta4.deb
+Size: 1562164
+MD5sum: a4dc9696690c0711b57d8c8a327e7fcf
+SHA1: 389e7e7dc840e46aa0c601c86a6a42273005e91f
+SHA256: f517b7f5160a3d27282ecee016a23ecd1a6ace8dd7e23d63aca61e24a8ad2045
+SHA512: 0cd23cde08a7428433c1812aa983cad4c675d4187eef62856b142483e7c4729062bc2257fd203e1d076ab6947f103fc36c3b775c0f694aa2219c5136c5e0fcd9
+
+Package: com.muirey03.13hud
+Name: 13HUD
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: iOS 13 volume HUD for iOS 11/12
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Muirey03
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
+Conflicts: applebetas.ios.tweak.willow, es.ubikstyl.sonus12, org.fwdr.sonus, com.midkin.byebyehud, me.nepeta.flashyhud, com.lnx.aerify, com.ruler225.videohud, me.nepeta.brokenhud, com.ikilledappl3.switchhud, com.yakir.volhud
+Filename: debs/com.muirey03.13hud_1.0.1.deb
+Size: 31116
+MD5sum: dc744bd029243a863550884c2798d369
+SHA1: 806ca0d9cc5d0b1ce8f0a254a1d6be8bf50c5d32
+SHA256: f225fd7ac1d69107aa342699e2fd647c518e89a304bd15359fa48c9c6dd28431
+SHA512: fff2d540a7555a6e4e1c95046c76f6a0f515af36dee1a66cacb18c7505c5c6d34c7aa82c500c75bd0996257eaf8fcf5a1a33bac39e5699cf42d55813dd8fb30f
