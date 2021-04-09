@@ -153,7 +153,7 @@ Architecture: iphoneos-arm
 Description: configure appearance of the Dock
 Maintainer: PinCode <pbradjan94@gmail.com>
 Author: burrit0z
-Section: Tweaks
+Section: Sajlhud
 Depends: mobilesubstrate, firmware (>= 8.0), ws.hbang.common (>= 1.13), preferenceloader
 Filename: debs/dockify_1.2.2.deb
 Size: 14552
@@ -233,7 +233,7 @@ Architecture: iphoneos-arm
 Description: Hide your app labels when not scrolling — ShyLabels makes your homescreen more simplistic, whilst keeping the essential function of the app label.
 Maintainer: PinCode <pbradjan94@gmail.com>
 Author: ConorTheDev
-Section: Tweaks
+Section: Sajlhud
 Depends: mobilesubstrate, preferenceloader
 Filename: debs/me.conorthedev.shylabels13_1.4.deb
 Size: 57866
@@ -266,7 +266,7 @@ Architecture: iphoneos-arm
 Description: iOS 13 volume HUD for iOS 11/12
 Maintainer: PinCode <pbradjan94@gmail.com>
 Author: Muirey03
-Section: Tweaks
+Section: Sajlhud
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11)
 Conflicts: applebetas.ios.tweak.willow, es.ubikstyl.sonus12, org.fwdr.sonus, com.midkin.byebyehud, me.nepeta.flashyhud, com.lnx.aerify, com.ruler225.videohud, me.nepeta.brokenhud, com.ikilledappl3.switchhud, com.yakir.volhud
 Filename: debs/com.muirey03.13hud_1.0.1.deb
@@ -275,3 +275,223 @@ MD5sum: dc744bd029243a863550884c2798d369
 SHA1: 806ca0d9cc5d0b1ce8f0a254a1d6be8bf50c5d32
 SHA256: f225fd7ac1d69107aa342699e2fd647c518e89a304bd15359fa48c9c6dd28431
 SHA512: fff2d540a7555a6e4e1c95046c76f6a0f515af36dee1a66cacb18c7505c5c6d34c7aa82c500c75bd0996257eaf8fcf5a1a33bac39e5699cf42d55813dd8fb30f
+
+Package: com.tigisoftware.filza
+Name: Filza File Manager
+Version: 3.8.2-4
+Architecture: iphoneos-arm
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: TIGI Software
+Section: Utilities
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: debs/com.tigisoftware.filza_3.8.2-4_iphoneos-arm.deb
+Size: 12948918
+MD5sum: 8942b83014cda56afbb56e70f8e3b888
+SHA1: 4e40240890918f2a7f677da13fb6ef7c7cc21702
+SHA256: d8fe5a61e3d0399135427cec4af87131970cd5244abc8146fcded8dc11b895a6
+SHA512: 6f931d29c296024a9af9b283a16e54ef5b6b50f8203079ec11203829b1c58950bf9cc311123b24c702f30cf2cc73bdbee4e87d693d28166ab8db09daa311909e
+
+Package: zip
+Name: zip
+Version: 3.0-11
+Architecture: iphoneos-arm
+Description: standard Windows compression tool
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Procursus
+Section: Archiving
+Filename: debs/zip_3.0-11.deb
+Size: 129616
+MD5sum: 2c18a4d60d8fa382bb87f30b08be403e
+SHA1: 21d65a364f7f96259755d03b725608b6e4a8ff6e
+SHA256: 6ad81265a6e2b16b0b3da24d65ffe7aaf35d1ebfb0be0656a9f85312e48862fc
+SHA512: 9df901fd5ded9645a52539ea59ceb677f1a45f0217d74ca081735cc72047243fb3084c8447f61f9ab52e16acd7a2d5b005093bd69051815c3a6bd5a35ff0b8e4
+
+Package: unzip
+Name: unzip
+Version: 6.0-25
+Architecture: iphoneos-arm
+Description: de-compesses files in zip format
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Procursus
+Section: Archiving
+Filename: debs/unzip_6.0-25.deb
+Size: 109492
+MD5sum: abed0e2556b4ac3bb0d7befa2833a790
+SHA1: 35637d61d34b81500eed892b0d873ff2b06d2f1a
+SHA256: 502c9ef9cccd595d5d4380e7d3b87eb39f562ae597a7044af219c3306f787a58
+SHA512: b1fdb3ee97efe56b9e783fc01c402b892c1d463ba6ecd6df8fe21fa88a4023760a85207777b2e70c115508720cddbb4df9d00f1bc15cfdddbd6a56b3639910a2
+
+Package: gzip
+Name: gzip
+Version: 1.10-2
+Architecture: iphoneos-arm
+Description: GNU compression utilities This package provides the standard GNU file compression utilities, which are also the default compression tools for Debian. They typically operate on files with names ending in '.gz', but can also decompress files ending in '.Z' created with 'compress'.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Procursus
+Section: Archiving
+Filename: debs/gzip_1.10-2.deb
+Size: 78366
+MD5sum: 9e5ee2f48565b05f0082ebc18dadd446
+SHA1: fefefa556ffaee1c1f202709d9453abfc8582313
+SHA256: e5e609f7fe15be71c3b0a434cd2cfd9a6f84b8c0c2add05705af7c379144f1a7
+SHA512: 6cd9d4a22d96977f3cf94432f8c155e5929b0db029fb194f673d24803a36c06bc6b376b687743745157325f8f9081ba9c61d5ddce5f4714b97002c12a120e333
+
+Package: unrar
+Name: unrar
+Version: 6.0.4-1
+Architecture: iphoneos-arm
+Description: Unarchiver for .rar files (non-free version) Unrar can extract files from .rar archives. If you want to create .rar archives, install package rar.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Procursus
+Section: Archiving
+Filename: debs/unrar_6.0.4-1.deb
+Size: 131150
+MD5sum: 68d1d52f468b04d8ae43038975896cea
+SHA1: 480d96452411f7be77332564e87453dde942e0c1
+SHA256: 5559b808acdf9ffffc7b2caea891075e383dcbf9d7f0e1accffe3dfe32221fb3
+SHA512: 08d2192ac5c552ad7632ca51b9a2f35e3a40b73d1a01c08cc34d05ba7dbacd44214f2dee27ed25ff39ff67c841dbbe68cb74c0b3dd1b224b3aa06610095ce63a
+
+Package: p7zip
+Name: 7-zip (POSIX)
+Version: 17.03
+Architecture: iphoneos-arm
+Description: claims to be a good compressor
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Procursus
+Section: Archiving
+Filename: debs/p7zip_17.03.deb
+Size: 1772008
+MD5sum: aa84aa3dca93ea9df2e6d286173d86f3
+SHA1: 349ea42d3b4ce4a7e144bb9bad293cb93b43bdab
+SHA256: f8ae3d0014e482b08c9de2530b338c158c360ce31bc7e0bf00fcc5608ce154a3
+SHA512: 85cb73b9881959f0e17058d02ffdb9664b79ac5efa9853c7defb00068655c91d15abba58f3c844baa01909a63358fca1479dfcad1a59864f34512132aa8bec40
+
+Package: libactivator
+Name: Activator
+Version: 1.9.13
+Architecture: iphoneos-arm
+Description: Centralized gestures, button and shortcut management for iOS
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Ryan Petrich
+Section: System
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Filename: debs/libactivator_1.9.13.deb
+Size: 930776
+MD5sum: 3284dc032c096bc82c0fb4fa465a0386
+SHA1: a366dce78423356fb52b23e49447fd44d25d62ee
+SHA256: 35bde71d2a2d2ef02b7096e513f693744eb27445b8b2a610ce151f783407e8ad
+SHA512: 5644499dae427b13423d173f04772d8fb6253ddca15c1946e4a7efdc2745a8005650dc742e85aae63922412d08f354fde383ebfe4666e4160cd0d072065b245c
+
+Package: com.a3tweaks.flipswitch
+Name: Flipswitch
+Version: 1.0.16
+Architecture: iphoneos-arm
+Description: Centralized toggle system for iOS
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: rpetrich
+Section: System
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch, com.jakeashacks.realcc (<< 1.0.2)
+Filename: debs/com.a3tweaks.flipswitch_1.0.16.deb
+Size: 300972
+MD5sum: 516996c64c4bc054b5b4a67fcfba5a9c
+SHA1: d17d8a66c9d05739dbedc7255530462bdbc4863f
+SHA256: 2dab7e1ee02a638d49342b956b554c24fb4191168e43c91f57b3394926566ed6
+SHA512: c27bcee8a23d14d6326dd85d502bb645bf23d6e0134e9d9b3d43edf8e2cf774a72ac2410bcad6c822acccc9e1eb942773859e4cb4b977f49781bb153944562cd
+
+Package: com.opa334.safariplus
+Name: Safari Plus
+Version: 1.7.16
+Architecture: iphoneos-arm
+Description: Various enhancements to Safari!
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: opa334
+Section: Tweaks
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>=1.1) | firmware (<<14.0)
+Filename: debs/com.opa334.safariplus_1.7.16.deb
+Size: 1194970
+MD5sum: 83f5d6667e1de8ee843e549385cfc217
+SHA1: 7ea560b25ac1ffc15e1a75a7b55ba391f5c231b4
+SHA256: 64ccaf148a1e5fce231105ce42124238e696c3c43805156cd7d9c67374babe5b
+SHA512: b89bf09beb6dc1f8d59ef9fc179c3ef0f3defd0cf641eeb6e7f70d62a48ec9fd612708c6222578c67312e40311814df8c45ee88add5efd9067e6a4111343d073
+
+Package: com.opa334.libundirect
+Name: libundirect
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Patchfinder and rebinder for objc_direct methods
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: opa334
+Section: Development
+Filename: debs/libundirect_1.1.deb
+Size: 8330
+MD5sum: 6f292d75aca6e41e3c46f932941b4cec
+SHA1: 020a504bda4d1024b8f676b47c22e38ff209bd4f
+SHA256: 6b4542d8e80ed38f86d55562a586625ba4fc5e3cd44d1398d5dc33fd757819e4
+SHA512: 6b5fb07fa7eafdba58c5f3281bf6c8cc7d83b753f7a87eaded6616be7cb5d908bd76fce2d2e016b2099bbaa716d630670d086286723f464129c1a042ded0afef
+
+Package: com.imkpatil.floatingdock
+Name: FloatingDock
+Version: 1.5
+Architecture: iphoneos-arm
+Description: iPad like dock for iPhone!
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Kiran Patil
+Section: Tweaks
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: debs/floatingdock_1.5.deb
+Size: 32170
+MD5sum: dbccd8c18859b4f5c444b66f111f9c3d
+SHA1: 3079a8d274593b772a6f26f04354fdcf5512a06b
+SHA256: 12847fc1410e3eb98430877d3f7f095eafe37a2241834fbd878bd498e9ffa517
+SHA512: e65a015ce835449dc4992fd224a537338730b3ae8724508caba2b7372b97174b15bcc440061f09786915fc6f6c885e547138fd998ab3b3e2fbed3dc3282709a5
+
+Package: org.thebigboss.libcolorpicker
+Name: libcolorpicker
+Version: 1.6.9
+Architecture: iphoneos-arm
+Description: color picker library for developers
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: PixelFire
+Section: Development
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/libcolorpicker_1.6.9.deb
+Size: 110620
+MD5sum: 76ac3303a769a551ba58a83855da19f5
+SHA1: c3aa95d2302ae22fac6344d131c58d6beecbe9b7
+SHA256: 5f3a37fd6b6e65da32fc8bcfedb74f13ba7ac5876b20968f04ea66fd68d12e6b
+SHA512: 4da19490cff7af9305e4e38de25c23bca1cc54fd356909d0b79506accb46144da14e2d4d6553b2ba3b8ebb86d8cd21c8472c3656a734a83edc4a04d26c4ee88e
+
+Package: com.cydiageek.skinnysettings
+Name: SkinnySettings
+Version: 1.6.1
+Architecture: iphoneos-arm
+Description: Make your Settings Minimal/Sleek & More!
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: CydiaGeek
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader, org.thebigboss.libcolorpicker
+Filename: debs/skinnysettings_1.6.1.deb
+Size: 171230
+MD5sum: 8ed0c7c03d0d1b3a1cdda14b9e595341
+SHA1: 1c4abf74e5d08df537427a7066741ab5cb7d4a60
+SHA256: cb533e8050485dca24c7d54403bd45d38ec94e21cdaf36bec6f08f5da226e83d
+SHA512: 06d7ca58e28bc44b8bfa6f2f9f92bf9aeac774d8b3c5f1981bb407c5b8aacfc065d9362b7b690eea5dd6d6ec13eea6f4deea6abfe1c9ad877974b61b889bb447
+
+Package: com.twickd.j3nra1n.lotus-revised
+Name: Lotus Revised
+Version: 1.1.1
+Architecture: iphoneos-arm
+Description: A simple subtle theme revived
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: J3nRa1n
+Section: Themes
+Filename: debs/com.twickd.j3nra1n.lotus-revised_1.1.1.deb
+Size: 3755024
+MD5sum: c8151068402a2d9c2e040aef42a01412
+SHA1: fee706e1ffa9b723916c1758c0af42ec1e66bc30
+SHA256: 2e3819649bb643e88e8e62bb36d7441e9cd11656d5b063a5360914ab6d328621
+SHA512: 71ad6a456622f9ba49b5874483df708d24709ab3a0fee1d865c853e61278e748b13d8012bcfb68c412d685f82d12572f152f1443495a121cfe82c7e4491f978f
