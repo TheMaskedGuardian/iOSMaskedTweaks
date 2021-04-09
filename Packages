@@ -495,3 +495,19 @@ MD5sum: c8151068402a2d9c2e040aef42a01412
 SHA1: fee706e1ffa9b723916c1758c0af42ec1e66bc30
 SHA256: 2e3819649bb643e88e8e62bb36d7441e9cd11656d5b063a5360914ab6d328621
 SHA512: 71ad6a456622f9ba49b5874483df708d24709ab3a0fee1d865c853e61278e748b13d8012bcfb68c412d685f82d12572f152f1443495a121cfe82c7e4491f978f
+
+Package: jp.soh.reprovision
+Name: ReProvision Reborn
+Version: 0.6.2~release
+Architecture: iphoneos-arm
+Description: Re-sign applications on your device
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Soh Satoh, Matt Clarke
+Section: System
+Depends: firmware (>= 9.0)
+Filename: debs/jp.soh.reprovision_0.6.2.deb
+Size: 14667432
+MD5sum: d1f99bfa8aa62d5281416c973c9d12ce
+SHA1: d5c24c64df51f891a1e94b8d45bdeb997650d79f
+SHA256: 48b09b6d92e45ccd49c4249a025592247c9283342561b3615d532acc16844c43
+SHA512: e4a18a564ad8a903b8f150a48f77c84cf0e22b23ed72b9532fd69b67a2fe8aebaf4be8458cb65b4bf1822343fee3b943d9648b1ebe778a8b949a96879d3f868d
