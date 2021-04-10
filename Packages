@@ -1,6 +1,6 @@
 Package: com.twickd.sarahh12099.youtube-reborn
 Name: YouTube Reborn
-Version: 1.0.4.2
+Version: 1.1.0.0
 Architecture: iphoneos-arm
 Description: YouTube Reborn
 Maintainer: PinCode <pbradjan94@gmail.com>
@@ -8,12 +8,12 @@ Author: SarahH12099
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
 Conflicts: com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers
-Filename: debs/com.youtube-reborn_1.0.4.2.deb
-Size: 54432
-MD5sum: 92433c57f18665c37680eac5f0bb9881
-SHA1: 1aa28d378f6006ba4319f9aa6ba4a54eb86515ee
-SHA256: be3e11e095a824984bbf5aba5e7ec832d228a7e23a579d366d3d16502929c3e5
-SHA512: 304104f3226116e82f4e4fa87c1991db32b353ed96475a5a31e4ab97ba3977546d8af942f22a510b3617652f0abbc9d0118f70ee7c5bc2a7e608d8160cdbaa84
+Filename: debs/com.youtube-reborn_1.1.0.0.deb
+Size: 187136
+MD5sum: 2dc144f896eac33ec90503bb55f2624e
+SHA1: 2809edc4367b188aa891b45bef6c1fd3c2c25184
+SHA256: 01088c220fe340fcbfab90d4c13609a0a7a29c733600afee8014e3861fbc298a
+SHA512: 42b160f3bb4945b2ada6ab024d58b7cf78fe50a60e15b58be2d34d66873e107c4198a8ee417e1c8da9863ed315b961bf71a7aaac2d17a7b56ef4cac07d0d07e7
 
 Package: mobilesubstrate
 Name: Cydia Substrate
