@@ -6,7 +6,7 @@ Description: YouTube Reborn
 Maintainer: PinCode <pbradjan94@gmail.com>
 Author: SarahH12099
 Section: Tweaks
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker, ws.hbang.common (>= 1.14), firmware (>= 11.0)
 Conflicts: com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers
 Filename: debs/com.youtube-reborn_1.1.0.0.deb
 Size: 187136
@@ -511,3 +511,18 @@ MD5sum: d1f99bfa8aa62d5281416c973c9d12ce
 SHA1: d5c24c64df51f891a1e94b8d45bdeb997650d79f
 SHA256: 48b09b6d92e45ccd49c4249a025592247c9283342561b3615d532acc16844c43
 SHA512: e4a18a564ad8a903b8f150a48f77c84cf0e22b23ed72b9532fd69b67a2fe8aebaf4be8458cb65b4bf1822343fee3b943d9648b1ebe778a8b949a96879d3f868d
+
+Package: com.spark.libsparkcolourpicker
+Name: libsparkcolourpicker
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Simple to implement, simple to use colour picker library. Built by SparkDev.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Spark
+Section: System
+Filename: debs/com.spark.libsparkcolourpicker_1.0.2.deb
+Size: 69510
+MD5sum: 3cf4ef3a93ad7ac10ad883e92134d690
+SHA1: 6870141444312965e65e73e451a65faa4efc895c
+SHA256: 693b47e2be249edd776d6efdbce56ff38067ce97b0d0402ef3d88b27cf2656fd
+SHA512: d3b32d380e2bd900d1ba9729d85da55b8ed09ceb81b9eb41f5ab7d12657f206a4a93e4d0f96d60b202446bbaa470ccc416943fdc0e1d0f565ba37f928717ece3
