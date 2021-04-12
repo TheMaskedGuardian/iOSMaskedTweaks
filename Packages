@@ -559,3 +559,21 @@ MD5sum: d659ac23395804e3d14203ea74f3e6f0
 SHA1: a9642fee45ee5e56d37768f14b1666cd99bb2584
 SHA256: 79f1c5879721616dd251d01d255a0db208f68a112de1b6ff22971334fb054691
 SHA512: 7bfced83d7b1e887003a31ed03cfec3acc2fcf75060937a7bf63ba5df5e503830492b4b1e0776e5719715bfae4637ee33c2334a68378cfdb4d94c61d12ffa4d1
+
+Package: net.angelxwind.appsyncunified
+Name: AppSync Unified
+Version: 92.0
+Architecture: iphoneos-arm
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.2)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Provides: appsync
+Filename: debs/nodelete-net.angelxwind.appsyncunified.deb
+Size: 58314
+MD5sum: f939aee24badb2c8d145aed68120a32c
+SHA1: 91e6d8239b4e75fe53920339a8a589819814f627
+SHA256: d7848ee4310f30b7dcf230d2281a97391d6c9984d2e333c254d9ddac060b9d1d
+SHA512: dc390d1e1eb1c01db32230bcb5c988d3a5395e695a15573ef8d0bace8c9b0cd9db799d23b55446593c048c584ad66884816f300103abeac46b1511978be146b0
