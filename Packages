@@ -106,6 +106,7 @@ Maintainer: PinCode <pbradjan94@gmail.com>
 Author: julioverne
 Section: Tweaks
 Depends: mobilesubstrate
+Priority: extra
 Filename: debs/com.hackyouriphone.spotilife_1.5.deb
 Size: 204092
 MD5sum: 8d4fb9efbbf292092a4eb49c7a7ce5ed
