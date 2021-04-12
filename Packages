@@ -526,3 +526,35 @@ MD5sum: 3cf4ef3a93ad7ac10ad883e92134d690
 SHA1: 6870141444312965e65e73e451a65faa4efc895c
 SHA256: 693b47e2be249edd776d6efdbce56ff38067ce97b0d0402ef3d88b27cf2656fd
 SHA512: d3b32d380e2bd900d1ba9729d85da55b8ed09ceb81b9eb41f5ab7d12657f206a4a93e4d0f96d60b202446bbaa470ccc416943fdc0e1d0f565ba37f928717ece3
+
+Package: com.subdiox.powertap2
+Name: Power Tap 2
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Power Tap 2 adds "Reboot", "Soft Reboot", "Respring", "Safe Mode", "UICache" to your power down options.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: subdiox
+Section: Tweaks
+Depends: firmware (>= 11), mobilesubstrate, preferenceloader, com.subdiox.sud0
+Conflicts: com.dpkgdan.slidetoreboot, com.myrepospace.dpkgdan.powertap, com.myrepospace.dpkgdan.slidetoreboot, com.dpkgdan.powertap
+Filename: debs/com.subdiox.powertap2_1.0.2.deb
+Size: 55278
+MD5sum: 2830c53724687cb9f6aa1dd81583ef25
+SHA1: 7201c78b514713bd6871c0d8007200ffeada3e50
+SHA256: c1851dc5531d37c4e727a2ffc9392e9e6cc545e1dab950cc68766dbd1be2feb5
+SHA512: 7f435ae7865b7556efa23660d69cb929f87071b4fcda732d4c2494abc16b4613e46a6307a0897484f882a99e97f8fc3243de1f6d884d16b6ef7fe4bef1755d90
+
+Package: com.subdiox.sud0
+Name: sud0
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: sudo command, electra jailbreak supported
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: subdiox
+Section: System
+Filename: debs/com.subdiox.sud0_1.0.1.deb
+Size: 4642
+MD5sum: d659ac23395804e3d14203ea74f3e6f0
+SHA1: a9642fee45ee5e56d37768f14b1666cd99bb2584
+SHA256: 79f1c5879721616dd251d01d255a0db208f68a112de1b6ff22971334fb054691
+SHA512: 7bfced83d7b1e887003a31ed03cfec3acc2fcf75060937a7bf63ba5df5e503830492b4b1e0776e5719715bfae4637ee33c2334a68378cfdb4d94c61d12ffa4d1
