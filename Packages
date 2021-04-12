@@ -97,7 +97,7 @@ SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
 SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
 SHA512: 42b13ee05ce8766a02c3dc4779752c97a2bd379690c928101cc590a3204af7f322051badf1e810faf4ab2c0520d00abc1df8e4aea86473b2f7b69c213c900d8e
 
-Package: com.spotilife
+Package: com.hackyouriphone.spotilife
 Name: Spotilife
 Version: 1.5
 Architecture: iphoneos-arm
@@ -106,7 +106,7 @@ Maintainer: PinCode <pbradjan94@gmail.com>
 Author: julioverne
 Section: Tweaks
 Depends: mobilesubstrate
-Filename: debs/com.spotilife_1.5.deb
+Filename: debs/com.hackyouriphone.spotilife_1.5.deb
 Size: 204092
 MD5sum: 8d4fb9efbbf292092a4eb49c7a7ce5ed
 SHA1: 3885ab381100045fefc6509d305b1a8a89b02f5c
