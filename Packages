@@ -577,3 +577,540 @@ MD5sum: f939aee24badb2c8d145aed68120a32c
 SHA1: 91e6d8239b4e75fe53920339a8a589819814f627
 SHA256: d7848ee4310f30b7dcf230d2281a97391d6c9984d2e333c254d9ddac060b9d1d
 SHA512: dc390d1e1eb1c01db32230bcb5c988d3a5395e695a15573ef8d0bace8c9b0cd9db799d23b55446593c048c584ad66884816f300103abeac46b1511978be146b0
+
+Package: com.julioverne.cydown
+Name: CyDown
+Version: 7.1.1
+Architecture: iphoneos-arm
+Description: Cydia Download Manager & Extra Features!
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: julioverne
+Section: Tweaks
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: debs/com.julioverne.cydown_7.1.1.deb
+Size: 4358056
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+SHA512: 2bb32906be8d14b6db0f794677e939911a3420ed07c8e811a57d85d8c1e5fc425e9350e771388d552934983d911a30dc309bf1f9f22ad3fdcef3ac7bdf193875
+
+Package: coreutils
+Name: Core Utilities
+Version: 8.31-1
+Architecture: iphoneos-arm
+Description: core set of Unix shell utilities from GNU
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Utilities
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d
+Filename: debs/coreutils_8.31-1.deb
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Priority: standard
+Size: 714854
+MD5sum: 0997053fd8ff60f0fd67e43d49bd7706
+SHA1: 569f47b27e54674873a606a7c85f9e5414a96457
+SHA256: 37a125683866d6afa27979f39ccad3d1e2b187c33f09a9cc291c9e9b1f14a006
+SHA512: b6ecaac405b79eb47d9e0eda55412062e0b47234cc1d50390adaf66cf919f62b3ea391354725b1f5189b6f0843c2cdb8167f2b957b419ebb8df33e29dd497598
+
+Package: coreutils-bin
+Name: Core Utilities (/bin)
+Version: 8.31-1
+Architecture: iphoneos-arm
+Description: just the /bin folder from GNU coreutils
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Utilities
+Filename: debs/coreutils-bin_8.31-1.deb
+Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
+Provides: dirname, kill, mktemp, su
+Priority: required
+Essential: yes
+Size: 679670
+MD5sum: d3597ea74d7a45a9383cf20b9ff30c3e
+SHA1: 7133ed7adeba9ad2ad099ee135fd517cb6c88e18
+SHA256: b4625d37d45684317766ec4c101dc37d6a750851defeb0a175c9d9f3be7f9728
+SHA512: 1a9bfd0023e4c33cc42c655bf997d8291a1178d68c7729ba6c53130a2c20eed7e59fc7f4b3a697a0180a34ea18d59e71c20a0be9d9091cb1e92b41e54ad8eb8a
+
+Package: bash
+Name: Bourne-Again SHell
+Version: 5.0.3-2
+Architecture: iphoneos-arm
+Description: the best shell ever written by Brian Fox
+Maintainer: PinCode <pbradjan94@gmail.com> 
+Section: Terminal_Support
+Depends: grep, ncurses, readline, sed
+Priority: required
+Pre-Depends: readline (>= 8.0)
+Filename: debs/bash_5.0.3-2.deb
+Size: 480482
+MD5sum: bfdb1d73a9e037063bbf43b5f4e05610
+SHA1: b4d77a3fa909e054b05f0cfb3913d0b427485efb
+SHA256: 078a0a6dc0619dc5db2cbb411a925ab5c08810279994714fd0343fc63f7d4072
+SHA512: 1869d53a6733010f49859137b6814cb7488d3826854a735062779f70fbdbb4792aea2c5bcf4e8f0abc12a973fc640b4a717cfd87c363c9fa8c27d6cb09165b28
+
+Package: profile.d
+Name: Profile Directory
+Version: 0-1
+Architecture: iphoneos-arm
+Description: makes packaging for /etc/profile reasonable
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Administration
+Depends: bash
+Pre-Depends: dpkg (>= 1.14.25-8)
+Priority: standard
+Multi-Arch: foreign
+Filename: debs/profile.d_0-1.deb
+Size: 918
+MD5sum: 2f05a62dd5b01466f2e29b08cf356c29
+SHA1: 76520371e2711f524847510b86e14c594b25c0e5
+SHA256: c83306dc925b5a7844098a496b8fd3eb1c3787dea912b6f7c4611d64fc651194
+SHA512: fc91300b2b12c9b2f2a64d05dde9fd63b7a220f4916ad8dea0bdd84e5ea60e603c628665a53ba4dded6498328583fcb671a8728960209643f5ce0ff1c4717976
+
+Package: grep
+Version: 3.1-1
+Architecture: iphoneos-arm
+Description: searches files for regular expressions
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Utilities
+Pre-Depends: dpkg (>= 1.14.25-8)
+Priority: important
+Multi-Arch: foreign
+Filename: debs/grep_3.1-1.deb
+Size: 91310
+MD5sum: 40bcdfa749676e9acfdc6b72489c3cfc
+SHA1: 46fc28d61a992cff7bdbcb5fb3e630ada610f728
+SHA256: b2b9473623f867735d878ee12b76af26084bbcf7bf5788a8985a579d8b806bbe
+SHA512: 02a22016d2fb96694e785eeb399749a0cf7ac6cf61a136da358cf0a97e6fa8a80cec20a2cd9b8fd62e668b669a8f5a9a38ae7964f32cae4c325950a1172b1db5
+
+Package: ncurses
+Name: New Curses
+Version: 6.1+20181013-1
+Architecture: iphoneos-arm
+Description: feature-complete terminal library
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: System
+Depends: ncurses5-libs, coreutils, bash
+Pre-Depends: dpkg (>= 1.14.25-8)
+Priority: required
+Filename: debs/ncurses_6.1+20181013-1.deb
+Size: 365394
+MD5sum: d18cc4490dbfe33b8fd5211fbeacacc0
+SHA1: 2f57c086e2ee68af536ff3b88d4ac315a49d32c8
+SHA256: e55c55c9d61f3a3b0c1fd1a3df1add4083a6d3e891f87fb698c57d33d2365567
+SHA512: 80adca6e76774fd34198d4ada3b5be4936f82d3fb0c5c0a2a04595687263bc855094e14a735f9645ad74ba56bfb5c79e2a208907e792166e261c06d9537a5041
+
+Package: ncurses5-libs
+Name: New Curses
+Version: 5.9-1
+Architecture: iphoneos-arm
+Description: feature-complete terminal library
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: required
+Section: System
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/ncurses5-libs_5.9-1.deb
+Size: 174740
+MD5sum: 42d7fe41d6350eeec74843a1cfcdd013
+SHA1: ad2ad37efc7719f8d09979db32648f12173c171e
+SHA256: 3001282a457fc30ea5e79b9a13fcd2f972640e2d78880d5099c4f5e2de484225
+SHA512: 750c6302d1ed29fa2210e0abaea043e89c585c6ec28b3c8484be5353896cd0a11b4fa3c3ebc7644f5cfaeb88f750299c3ee84672ba26ceec610438580f9eb1d2
+
+Package: readline
+Version: 8.0-1
+Architecture: iphoneos-arm
+Description: command-line history management
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: required
+Section: Development
+Depends: ncurses
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/readline_8.0-1.deb
+Size: 129432
+MD5sum: 7ad4f53a452eb73cc40e0f78ade4d97e
+SHA1: 6999462680a86071f76c022e24fc1a64dfeaf608
+SHA256: 60b71efee41f78b7c427fc575c544a6ea573e4bf07520099a579e2855a040ae4
+SHA512: 43de84e3e2c3bebe16e3e1420103b1476971ba9dcf61982a23c95970f9bc75d4848b3f5f2ae5f017b2218e6785bb874d99b38ed5acc7d9d3ef22da68492b16a5
+
+Package: sed
+Version: 4.5-1
+Architecture: iphoneos-arm
+Description: edits streams of text using patterns
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Utilities
+Pre-Depends: dpkg (>= 1.14.25-8)
+Priority: important
+Multi-Arch: foreign 
+Filename: debs/sed_4.5-1.deb
+Size: 76688
+MD5sum: a020882dac121afa4b03c63304d729b0
+SHA1: b6a8b96821056af0e49f9888f969cd6b136434a3
+SHA256: 8a8e92b8e611514f163ca56e6fd05cbcd9f457f07d4d87ccc9202a1c6b157422
+SHA512: 8e4afaacbf29bfe1ca45c7f2287df7800311b61dfe13aaabb2262dafb75d9b5608ec502ca934892d2652973b88e0557309e6fc8bfc492d981091517f9bab8bb7
+
+Package: dpkg
+Name: Debian Packager
+Version: 1.19.7-2
+Architecture: iphoneos-arm
+Description: package maintainance tools from Debian
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Packaging
+Depends: bash, bzip2, coreutils-bin (>= 8.31), diffutils, file (>= 5.35), findutils, gzip, ldid (>= 2:2.1.1), lzma, ncurses, tar, xz
+Pre-Depends: tar (>= 1.23)
+Priority: required
+Essential: yes
+Filename: debs/dpkg_1.19.7-2.deb
+Size: 527672
+MD5sum: 884e834ccecba98580f3b1d763416b39
+SHA1: 79f07e2505bd2418ac892455216d766116de26fc
+SHA256: f3ede0c5a011c811186a90b569cf2e72bc5931003f8d9fcc9d5879eb420fd15b
+SHA512: 2335110d2c994ff1f2f693fb3b0a24c37b56cde6af1ea35a1685c0d9fa8c274ada553686f2322f4e6cffc3921764f69dfd45700291916e30843614e2b2ee82fa
+
+Package: tar
+Name: Tape Archive
+Version: 1.33-1
+Architecture: iphoneos-arm
+Description: 
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: required
+Section: Archiving
+Depends: bzip2, gzip, lzma, xz
+Conflicts: dpkg (=1.18.24)
+Filename: debs/tar_1.33-1.deb
+Size: 254200
+MD5sum: f8ed6301a20a0048705bfeb69502b3cd
+SHA1: e5ea065dd5729fedd6b3fe79040904613eca22f0
+SHA256: a6785aab85a93a0719d5a4851e5aaf4f5c407f47d7dcde869282bdf3d891e6c9
+SHA512: 348af9ffce3959c795e70b4f444638dfcf8bbd33c3ebb5f8122ddf020e20bc187115469e2e04e01382d0f705af7ed792ba4b8f5a0ad89cdaf8850d7540f7d078
+
+Package: bzip2
+Version: 1.0.6-1
+Architecture: iphoneos-arm
+Description: compression that's slightly better than gzip
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Archiving
+Priority: important
+Filename: debs/bzip2_1.0.6-1.deb
+Size: 53070
+MD5sum: fb8ad9bad8b3bd8c1f3c1fad3cd50901
+SHA1: af8b99bde02484cc33b54770ba570dc03533d094
+SHA256: fced8ef4f004deccb7724c5ddb2703604aa09f39c6f7bf707270c3dcef13e78a
+SHA512: e8b4b95bb19e472e56506460723133cbdb560f0a56f3fccac499c7c9c1624cfa7e5530020d1493259de780b1dda1af79c36721224e31d52248df81909b2f0530
+
+Package: diffutils
+Name: Diff Utilities
+Version: 3.6-1
+Architecture: iphoneos-arm
+Description: compare two files for differences
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Development
+Priority: important
+Multi-Arch: foreign
+Filename: debs/diffutils_3.6-1.deb
+Size: 142850
+MD5sum: 1974a04ebad7875351469c28047f8330
+SHA1: 2e09ed91bc82a107382bfd8882eabaaf108a2933
+SHA256: 46fdcd64f07c4b0f23a82d52c84cc7e221cd55b6ce254bb43df48595ce8ee54e
+SHA512: b79dbe8af2170819a3357fa52fa9bf482ff3f107290c45583115fe9e8051e1c7797de9ab45111799adf0cb0f0cc1d897446a7c01ff8a467503b899adc90865e5
+
+Package: file
+Version: 5.35-2
+Architecture: iphoneos-arm
+Description: guesses the type of a file from contents
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Utilities
+Pre-Depends: dpkg (>= 1.14.25-8)
+Priority: important
+Filename: debs/file_5.35-2.deb
+Size: 289140
+MD5sum: 0705cdf50b3a5579dff9fc5914d3cd91
+SHA1: 3c20d50837358126779741bf0356a4cfac24998d
+SHA256: b0baa663034a746e0c36239de9ffab1d06bdf411b3c5573731e89aca96b8cc08
+SHA512: 7d52d2f589e05d727ff771f64548fd95158ae0b9bc79562b30b77324b66eac544586b4e0f44b84815722cbf32f42068c14a699c7ebb5132f3339c2890c0a7c6a
+
+Package: findutils
+Name: Find Utilities
+Version: 4.6.0-2
+Architecture: iphoneos-arm
+Description: indexes and searches filesystems
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: important
+Section: Utilities
+Depends: bash, sed
+Filename: debs/findutils_4.6.0-2.deb
+Size: 212748
+MD5sum: e1e14478157f53157d6a7aa11c3c3865
+SHA1: c3fab8068691b9b4fc9e8bc969dc313e281c1060
+SHA256: fb683abb9c0c7ca3b6bcb3aa87ce31785ad2480fd46e650c2fc757a22fa51516
+SHA512: 3247a87a13e5f98e7ea1208204f7d00a387dd94c58bae61de061a1fe65fc4bedd77a7b2d1578a14ce9b2dc91c22274b6fe307dfa4815c3d4d6dfbd4123e6f0b8
+
+Package: ldid
+Name: Link Identity Editor
+Version: 2:2.1.1+elucubratus2
+Architecture: iphoneos-arm
+Description: pseudo-codesign Mach-O files
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Jay Freeman (saurik)
+Priority: optional
+Section: Development
+Depends: libplist (>= 2.0.0), libssl1.0, dpkg (>= 1.18.25-9)
+Filename: debs/ldid_2-2.1.1+elucubratus2.deb
+Size: 51780
+MD5sum: f8722d8ff2593b5cfe7e973d54e29d58
+SHA1: 3e06294d466be5a1453dacc462f5bb45cfa57e4c
+SHA256: b38cfd023d2a9e2afc4747e007a2b90b1eb10525169e98a3132bbd008dc97aac
+SHA512: c6884e50919d68630488e7b287627de0add4fbcfd0f4bcdba4b846548e058e7cec91cbcc4e1d095d2af5fab20063853e2e67f703bafdf4e4b01cf819d078784c
+
+Package: ldid
+Name: Link Identity Editor
+Version: 2:2.1.4-1
+Architecture: iphoneos-arm
+Description: pseudo-codesign Mach-O files
+Maintainer: PinCode <pbradjan94@gmail.com>
+Author: Jay Freeman (saurik)
+Priority: optional
+Section: Development
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Pre-Depends: dpkg (>= 1.14.25-8), libplist3
+Filename: debs/ldid_2_2.1.4-1.deb
+Size: 55008
+MD5sum: c35ac8c8a6ef1f766afccd1eca00dd7c
+SHA1: c9499a3e515e3d04733d72374f55f83476df5762
+SHA256: 7d9a8ca5f1d02f6fd399cc1418ff582e0f600ed508565f5db0dc28c853981040
+SHA512: d10949d75a25ddbefb2fbe6676e0418203cfb232cf26a061d1904be94be516d9153dda901859414b3323c2ded281d1580750241c1407972f0cb312703e82e301
+
+Package: lzma
+Name: LZMA Utils
+Version: 2:4.32.7-2
+Architecture: iphoneos-arm
+Description: slower, but better, compression algorithm
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Archiving
+Conflicts: com.mc.xz
+Priority: important
+Filename: debs/lzma_2_4.32.7-2.deb
+Size: 69930
+MD5sum: 31d304172b109340f5cc60f9bb5b1a6a
+SHA1: b286111eabd262032f24549d36516cd8534d0899
+SHA256: 86f4c93a6084478fb1642d083d9186b5172783e42ef35306d311cf82205194f0
+SHA512: 49d460a9c078b50e2fdfb315f21961f9125420607ffd801bc82dbeb3fcef63098393fe965c8d200bf441952f16c73f6791f21dd85910fc5d8add44435169da93
+
+Package: xz
+Name: XZ Utils
+Version: 5.2.4-4
+Architecture: iphoneos-arm
+Description: slower, but better, compression algorithm
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: required
+Section: Archiving
+Depends: lzma (>=1:0)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: xz-utils, com.mc.xz
+Essential: yes
+Filename: debs/xz_5.2.4-4.deb
+Size: 128578
+MD5sum: 74eb7f8aebc92cad1260292d8b695eac
+SHA1: ba4a9539be17b5b91c514d13ddc65e22e89f31e5
+SHA256: ea6a074f3afe5f5ebd8cab735ce862e24f72bbbecb6252a43f2fc140f4d94933
+SHA512: 084dab24403a20312c19a506c00412421fd1d3ebdd45bd31377e2bba9474a9ccf9c0475c73e6cce7a6f38dfc64da766bdb1937c16b5104d477c8ad07d801b4c7
+
+Package: libplist
+Version: 2.2.1-3
+Architecture: iphoneos-arm
+Description: Library for handling Apple binary and XML property lists (metapackage)
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: standard
+Section: Networking
+Depends: libplist-dev, libplist3, libplist++-dev, libplist++3, libplist-utils
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: ldid (<<2:2.1.2.7+g5420cb5q)
+Filename: debs/libplist_2.2.1-3.deb
+Size: 680
+MD5sum: 87d8f42faa9cd9985bbd2da89d1809b2
+SHA1: 4181e85dc314b5ea1f279cb167c8688bb248d030
+SHA256: 0f7374ab87900837600762f3556a70f05ca8800044f7989775d07c1bdf9b0a50
+SHA512: d129ec1ab9267e5c4375181cd9cce0214fbe66cbea2cab1bb9f6364e766ea73ce34eed48ac844f0ad91d97356ab420bb4af100f6830dfa69715a4caf52765633
+
+Package: libssl1.0
+Name: OpenSSL 1.0 Libraries
+Version: 1.0.2s-1
+Architecture: iphoneos-arm
+Description: OpenSSL Libraries for version 1.0
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: standard
+Section: Security
+Depends: ca-certificates
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: openssl (<<1.0.2q)
+Filename: debs/libssl1.0_1.0.2s-1.deb
+Size: 815306
+MD5sum: 77db2446c032e43eee9924a6bbcb39ae
+SHA1: 6b5afd03d23983153e9b4d875e0b047006cbaba2
+SHA256: 11f061046fc87942d6b6f954d60db03548202766497410ec8397ff2a8c94c8ad
+SHA512: fc036138e64e0021abad5e0a91698d890ec1c86480d815a79d813a580cd1c5b3d1989d37902919aff8028c632cdae28894a7a20495cbbe0ab9fa0569e24783b1
+
+Package: libplist-dev
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Description: Library for handling Apple binary and XML property lists - dev files
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This package contains the development files of the liplist library.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Networking
+Depends: libplist3
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Priority: standard
+Filename: debs/libplist-dev_2.2.1-1.deb
+Size: 6468
+MD5sum: 119ade31ad45683e875223dd65e1f01b
+SHA1: 45dc3af47fe4373ecb78aea534852187940dab3a
+SHA256: 0d5b59f0eba926201093f50924c4e6d49e75ced8ffe73d74bf2a67fa82c141af
+SHA512: 3e7b31bc148e15fefd91973153d8076ae4928c8ccbc980bc2236c2beb294f484c0423504cf3228ebdafbb99821feea8411b5e87e8722dff1161732ee7973a681
+
+Package: libplist3
+Version: 2.2.1-2
+Architecture: iphoneos-arm
+Description: Library for handling Apple binary and XML property lists
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This library is the C implementation of the libplist API.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: standard
+Section: Networking
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: libplist (<<2.2.0)
+Filename: debs/libplist3_2.2.1-2.deb
+Size: 24316
+MD5sum: 8e3f3cf6a77d1b024c5bb82752b0e403
+SHA1: e3b4825324520dca3b60032261914bd229d7aefd
+SHA256: 91b9fc59da9e3d58adfbc32dc6dbbe9fde73734191981f53407e28a25e70c83d
+SHA512: 6ddb5a395f1819221ce91886b5df5611265bee70ba8c08dbb2a6efeffe8ec1f7b1f085def4e0889391c0cab90222d0ff4e6a583dfd01ab2abc37c3f2cc18b773
+
+Package: libplist++-dev
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Description: C++ library for handling Apple binary and XML property lists - dev files
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This package contains the development files of the liplist++ library.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: standard
+Section: Networking
+Depends: libplist++3
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: debs/libplist++-dev_2.2.1-1.deb
+Size: 3338
+MD5sum: 913c8acc252aabb7af92fe93335c4125
+SHA1: af636876dd14b72b49218d4b449d098bc6497a13
+SHA256: db5cd3812fcb607ac7783cfda5bae503d03e3ed0a28d37e4f47a1bbc0cc3b485
+SHA512: 749149b62d37902e09d16efe9a7123f7869fc2d05aef52a56d72a2833c27ecee00dd1204bf14940270f818e1dec9604453a676e1c0bda423a89e3e295bf8f668
+
+Package: libplist++3
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Description: C++ Library for handling Apple binary and XML property lists
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This library is the C++ implementation of the libplist API.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Networking
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Priority: standard
+Filename: debs/libplist++3_2.2.1-1.deb
+Size: 17022
+MD5sum: 23db2bc0a1223d30045c030565ac1296
+SHA1: 3e738a5579f5590f0c3c1e713cfe864bc7f80117
+SHA256: 91f978e4d2b9362a96604fe284f54fcb5ecc6fa085368577a48c7c9e5c398533
+SHA512: a8922ffa77410079f20b6a61ad00fcc38507e9b6c2b8c562cbac196bab907c71b05944f72b90f24943b1a016432fb72f46145970e8348f9247f29d0cf89bb0cb
+
+Package: libplist-utils
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Description: Apple property list converter
+ This package containt tools to convert Apple property list files from
+ binary to XML and vice-versa. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: standard
+Section: Networking
+Depends: libplist3
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: debs/libplist-utils_2.2.1-1.deb
+Size: 4110
+MD5sum: 502ec77e3968312f1f3392b68fc7a9c2
+SHA1: 5fc5714381da93def0300f05bf6e5d4d0c516d36
+SHA256: dc7e148b78f82f3632d34d576fb0fee7d28d087bb3fc9a26bc41b53a92759d0a
+SHA512: 98f3255db19f75b901d9f18c68d16fd9d14e16b1a2b0dc8231aa47d4c3d8f570823a6da92c0ab2ba52fe2f34c8041543a59d185f5fa2dac74f4bbf0c61951330
+
+Package: libssl1.1.1
+Name: OpenSSL 1.1.1 Libraries
+Version: 1.1.1i-1
+Architecture: iphoneos-arm
+Description: OpenSSL Libraries for version 1.1.1
+Maintainer: PinCode <pbradjan94@gmail.com>
+Priority: standard
+Section: Security
+Depends: ca-certificates
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libssl1.1.1_1.1.1i-1.deb
+Size: 1181390 
+MD5sum: 1ed0ad3004c88a512360920ec5c41e0f
+SHA1: a20d8d761443188a6ba3b11cb863843eec829f92
+SHA256: c21d3176f75dfddc5bdb29dd545cc354ae5c72c78f3c95f413b913edc5d3296c
+SHA512: 4e40f280f00e48dba56589db2d7a45f7cd81f76089d4eda2786096520c6c208514ff077b60dff0d3ed7502c85a3da70210bbcd70e0479b994def66fd93c1b8a5
+
+Package: ca-certificates
+Name: CA Certs
+Version: 0.0.1-1
+Architecture: all
+Description: CA certs for curl, wget, git.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Utilities
+Depends: firmware (>= 2.0)
+Conflicts: org.thebigboss.cacerts
+Replaces: org.thebigboss.cacerts
+Provides: org.thebigboss.cacerts
+Priority: optional
+Multi-Arch: foreign
+Filename: debs/ca-certificates_0-1_all.deb
+Size: 134436
+MD5sum: 5d4744afecd3bd84d9921bfa8755f70e
+SHA1: 2887452fc6e3007ead9053e9afbcd5d6dc3ebf99
+SHA256: 1c90511fd002151b274c28e50adb8654ecf210a305a891557dcd7d235dd95cf1
+SHA512: cc25991bf1561e9aaae03f24cb161db5edf0cda66f56ad2b85ad835fb4817a2d1ec1c3b39b25800974a01c92a61bfa5681766a6d66faf55a6be61990bf14984a
+
+Package: ca-certificates
+Name: CA Certs
+Version: 0.0.2
+Architecture: all
+Description: CA certs for curl, wget, git.
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Utilities
+Depends: firmware (>= 2.0)
+Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
+Replaces: org.thebigboss.cacerts
+Provides: org.thebigboss.cacerts
+Priority: optional
+Multi-Arch: foreign
+Filename: debs/ca-certificates_0.0.2_all.deb
+Size: 125710
+MD5sum: c9e280b321aba40459c988eac9625957
+SHA1: 878696ce1037a53c58d3d75dfcf39507a942f18c
+SHA256: 29d3d0d5b09686f117a0402796f3f99224e30168e44178a49a78f504f3c84ba2
+SHA512: 0b15d8e1578acd949a6d42e9799e8c9440a9957e9a2de521ae00887b3573331a536dec41aa1484a9b0e1f5c7457829d5728c08f3a99d679c0a90dacec048e3c5
