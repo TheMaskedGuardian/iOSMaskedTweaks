@@ -114,6 +114,24 @@ SHA1: 3885ab381100045fefc6509d305b1a8a89b02f5c
 SHA256: cfa41cf69b517ea8b781979639b4749fb0bbd915a30dba3d5d12c8e111e62846
 SHA512: fa3c2d2120402960a826b09f21fdd9a1d39745b5e01aadf174fa311630081fef917c8a866961d348e35327443573f6659a25c3090e29dd7c66b1e56055947981
 
+Package: com.julioverne.spotilife
+Name: Spotilife
+Author: julioverne
+Version: 1.7a
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Homepage: http://twitter.com/ijulioverne
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Tweaks
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Filename: debs/com.julioverne.spotilife_1.7a.deb
+Size: 193424
+MD5sum: 45023c8a6e390298c7c81240191cc14a
+SHA1: ab246a78891af22c1fec8feda7fd1d354ba0d2b0
+SHA256: 25835a3e6965ae7582f44e9454191be788d5ed56d67ab244aae553bbad317833
+SHA512: 56ddb94eaf7332d792d55232927c29580819e0c199df0a107f46a8f6835e5dd998b00463fdf77be08b1dc09b6f9bda7868ce9017a865a12093bfe73e8fcbf451
+
 Package: com.ichitaso.quickcc
 Name: QuickCC
 Version: 1.0.5
