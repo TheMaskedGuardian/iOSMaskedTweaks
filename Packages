@@ -132,6 +132,24 @@ SHA1: ab246a78891af22c1fec8feda7fd1d354ba0d2b0
 SHA256: 25835a3e6965ae7582f44e9454191be788d5ed56d67ab244aae553bbad317833
 SHA512: 56ddb94eaf7332d792d55232927c29580819e0c199df0a107f46a8f6835e5dd998b00463fdf77be08b1dc09b6f9bda7868ce9017a865a12093bfe73e8fcbf451
 
+Package: com.julioverne.ytmusilife
+Name: YTMusilife
+Author: julioverne
+Version: 0.2
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: YouTube Music No ADs, Background Playback, Only Audio Mode, Unrestrict Country... Requires YouTube Music App (AppStore)
+Homepage: http://twitter.com/ijulioverne
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Tweaks
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.ytmusilife
+Filename: debs/com.julioverne.ytmusilife_0.2.deb
+Size: 29630
+MD5sum: 4f760c623a821cb16bc6fcfa6e5239d6
+SHA1: 8a0d30d9b2a198665e9a31baabe658d4072728e2
+SHA256: 09a39e63a893eb968233c5f4a46c07b351605373bc9813a1e442416742c17632
+SHA512: 20c98596bdc377cc55b9b5bdd57a5e98be0d1a62c36de0bd05b822e69a2c3d71cb7d45f2a5fcb5c0d36cfb7d43e6eb76005d2c8be2cbc6067dedde8aefcaeaf5
+
 Package: com.ichitaso.quickcc
 Name: QuickCC
 Version: 1.0.5
