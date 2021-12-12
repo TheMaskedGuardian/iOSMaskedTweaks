@@ -15,6 +15,47 @@ SHA1: 2809edc4367b188aa891b45bef6c1fd3c2c25184
 SHA256: 01088c220fe340fcbfab90d4c13609a0a7a29c733600afee8014e3861fbc298a
 SHA512: 42b160f3bb4945b2ada6ab024d58b7cf78fe50a60e15b58be2d34d66873e107c4198a8ee417e1c8da9863ed315b961bf71a7aaac2d17a7b56ef4cac07d0d07e7
 
+Package: net.sarahh12099.youtubemusicreborn
+Name: YouTube Music Reborn
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Conflicts: com.justinpetkovic.ytmt
+Replaces: com.twickd.sarahh12099.youtube-music-reborn
+Architecture: iphoneos-arm
+Description: YouTube Music Customizer
+Maintainer: SarahH12099
+Author: SarahH12099
+Section: Tweaks
+Version: 1.0.1.2
+Installed-Size: 312
+Filename: debs/youtube-music-reborn_1.0.1.2.deb
+Size: 24452
+MD5sum: 5b35d5673b8ba6e025a4888df389c0af
+SHA1: cc0760202c70efcce08308687421aa8cf7575760
+SHA256: b7e50b52025c8289209f982e54cc0b582c60f7d0ef71812bdfb20b5bec89984c
+SHA512: df2098d02c09ee1f60eb8518067cb64dae62253add23ff688b2e4043651180743b4242b7085d3511491f4bd27ab58851a1e1c6f5ce1226aa56c8d80ce7b1000f
+
+Package: com.twickd.sarahh12099.youtube-music-reborn
+Name: YouTube Music Reborn
+Architecture: iphoneos-arm
+Description: YouTube Music Customizer
+Maintainer: SarahH12099 <sarahh12099@gmail.com>
+Author: SarahH12099 <sarahh12099@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Conflicts: com.justinpetkovic.ytmt, com.icraze.youtubemusicbackgroundplayback
+Replaces: net.sarahh12099.youtubemusicreborn
+Version: 2.0.0.2
+Installed-Size: 232
+Depiction: https://repo.twickd.com/package/com.twickd.sarahh12099.youtube-music-reborn
+SileoDepiction: https://repo.twickd.com/package/com.twickd.sarahh12099.youtube-music-reborn/native
+Tag: compatible_min::ios12.0, compatible_max::ios14.4
+Filename: debs/youtube-music-reborn_2.0.0.2.deb
+Size: 46496
+MD5sum: 8c1581846c26ce2f171f635ce511e812
+SHA1: e13fb6fa54b77f53f72f4fdb622ce5c715968f8f
+SHA256: 4de8a57957889c1bdb206a99a0f716e54be8a104d6f22170fa500ae4d89a41bf
+SHA512: 5133e5e688af3713f3b838192a02a7b6a48191a639f0cd0d997cd7e5dd0ba58df817bd6cbf7999a976ae7bb13fb84883412b4e9481d8d2e9df3e4bfd8059a4b7
+
 Package: mobilesubstrate
 Name: Cydia Substrate
 Version: 0.9.7111
