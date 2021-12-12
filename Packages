@@ -1259,3 +1259,21 @@ MD5sum: 52fceda176e1d7c852d5ea63ccea09ce
 SHA1: 838e3377013c816c9eb9ed9648d2753c0cefa998
 SHA256: 020ead5c45cbfb0a155e854333bb3b31057f4fe539984a2d79b859a8b244885b
 SHA512: 4de32893086b196dba10f823b5019c73ee3aafa8c884372e45150004a00400132e71087b578318c0fc53420b4e89570b7879c5450de296061277cebb10dffd45
+
+Package: com.google.ios.noyoutubemusicads
+Name: NoYouTubeMusicAds
+Architecture: iphoneos-arm
+Description: An awesome YouTube Music AdBlock tweak!
+Maintainer: atebitsy
+Author: atebitsy
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Depiction: https://www.atebitsy.com/repo/package/noyoutubemusicads/index.html
+Version: 3.89.4
+Installed-Size: 216
+Filename: debs/com.google.ios.noyoutubemusicads.deb
+Size: 8970
+MD5sum: 0a1c1696cd50515518052ec2efc50bac
+SHA1: 3ff43117cf01e30ea17092436c8dfed91d8ad2d0
+SHA256: 94daf0db026e8d91dc261e44e7f6d29b48a8dc6781ba78b3a692bff9573d8d6c
+SHA512: 7fd340adc0f56ede96aa4cd4be136fc53b9b3a1d296852479526cb598ef1cdb1ffa8132edd45d3650f3a7c2f17c1fe2112befa34e4e8b7574a5426a77e3b0b73
