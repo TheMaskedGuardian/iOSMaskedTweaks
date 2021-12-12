@@ -1277,3 +1277,29 @@ MD5sum: 0a1c1696cd50515518052ec2efc50bac
 SHA1: 3ff43117cf01e30ea17092436c8dfed91d8ad2d0
 SHA256: 94daf0db026e8d91dc261e44e7f6d29b48a8dc6781ba78b3a692bff9573d8d6c
 SHA512: 7fd340adc0f56ede96aa4cd4be136fc53b9b3a1d296852479526cb598ef1cdb1ffa8132edd45d3650f3a7c2f17c1fe2112befa34e4e8b7574a5426a77e3b0b73
+
+Author: saurik, Cannathea <csupport@cannathea.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Package: com.cannathea.afc2d-arm64
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Section: System
+Version: 1.1.5-1
+Architecture: iphoneos-arm
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: cannathea
+Tag: purpose::daemon
+Installed-Size: 686
+Filename: debs/com.cannathea.afc2d-arm64_1.1.5-1.deb
+Size: 14486
+MD5sum: c57f2a538b007e8f655ddcb3140804a1
+SHA1: 39ae9a6107ae67236ec5011530b08ef594248341
+SHA256: 488e4e86a97bdfcb12c396d14c9bc3e8666e810c5435023d7d8b530b5924e391
+SHA512: 3f6e98636a622bf41f76582af5fd78a65985e64a70b9cbb29040bbfff832dee0287c46641891f9f3d83464d43c373e6f1862ce966ebfd7d0f8a79d6dd4164b16
