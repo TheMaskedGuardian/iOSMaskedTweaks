@@ -1191,3 +1191,71 @@ MD5sum: c9e280b321aba40459c988eac9625957
 SHA1: 878696ce1037a53c58d3d75dfcf39507a942f18c
 SHA256: 29d3d0d5b09686f117a0402796f3f99224e30168e44178a49a78f504f3c84ba2
 SHA512: 0b15d8e1578acd949a6d42e9799e8c9440a9957e9a2de521ae00887b3573331a536dec41aa1484a9b0e1f5c7457829d5728c08f3a99d679c0a90dacec048e3c5
+
+Package: net.kenhtao.audiorecorderxs
+Version: 3.7-42
+Section: Tweaks
+Maintainer: Kênh Táo
+Homepage: https://limneos.net/audiorecorderxs/
+Pre-Depends: net.kenhtao.limneos
+Description: Ghi âm cuộc tất cả cuộc hội thoại của bạn!
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0)
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Architecture: iphoneos-arm
+Installed-Size: 23088
+Name: AudioRecorder XS (iOS 12 - 14) VN
+Author: Elias Limneos
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.audiorecorderxs
+Depiction: https://repo.kenhtao.net/view/7637
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Filename: debs/net.kenhtao.audiorecorderxs.deb
+Size: 3070918
+MD5sum: b59c9ea514e97d19f7685f2a13dff3d4
+SHA1: ede17cf776060a179c6528adab5b82e61da87ee4
+SHA256: 2eb38123c61fadeff3c45dba8498d4de6ae979370332d616fe4a78d5a86aaa56
+SHA512: d0ad256c0b63f3bc40cc90edc3bbe24c3d86bd5d6300c9ef46bf3568843e2b0b09a63d081fe958c3edec17d3ccc1db68099cbf16080967645883de8544bc228a
+
+Package: net.kenhtao.limneos
+Version: 2.0
+Priority: optional
+Section: Tweaks
+Maintainer: Kênh Táo
+Description: Kích hoạt bản quyền miễn phí cho tinh chỉnh của Limneos!
+Depends: mobilesubstrate
+Conflicts: ru.rejail.limneosos
+Replaces: net.kenhtao.limneosos
+Architecture: iphoneos-arm
+Installed-Size: 212
+Name: Limneos!
+Author: Julioverne
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.limneos
+Depiction: https://repo.kenhtao.net/view/5578
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Filename: debs/net.kenhtao.limneos.deb
+Size: 16380
+MD5sum: 0ff4f2d505089222154ca717d9c6db77
+SHA1: b5925bc1a178168b7a9e126c6240de153fa60143
+SHA256: ca23affbcb4dca282b79022b76ebfdadbd9b6b1d68e3289b7e152ce024b97430
+SHA512: bb442d0b935e350ba4a20371081332f461665605a209bb7176982f0ab065580d688cd1d12c48bb2ee41eb3a6babf119a00f70aa9ab76ffe292ff4506870e3183
+
+Package: net.limneos.simpleactivationactions
+Version: 0.1-1
+Section: System
+Maintainer: Kênh Táo
+Description: Handles StatusBar actions for simple activation events
+Depends: mobilesubstrate, firmware (>= 10.0)
+Architecture: iphoneos-arm
+Installed-Size: 107
+Name: SimpleActivationActions
+Author: Elias Limneos <limneoselias@gmail.com>
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.limneos.simpleactivationactions
+Depiction: https://repo.kenhtao.net/view/7132
+Icon: file:///Applications/Cydia.app/Sections/hethong.png
+Tag: purpose::extension, cydia::obsolete, compatible::ios12
+Filename: debs/net.limneos.simpleactivationactions.deb
+Size: 5932
+MD5sum: 52fceda176e1d7c852d5ea63ccea09ce
+SHA1: 838e3377013c816c9eb9ed9648d2753c0cefa998
+SHA256: 020ead5c45cbfb0a155e854333bb3b31057f4fe539984a2d79b859a8b244885b
+SHA512: 4de32893086b196dba10f823b5019c73ee3aafa8c884372e45150004a00400132e71087b578318c0fc53420b4e89570b7879c5450de296061277cebb10dffd45
