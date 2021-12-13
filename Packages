@@ -1303,3 +1303,24 @@ MD5sum: c57f2a538b007e8f655ddcb3140804a1
 SHA1: 39ae9a6107ae67236ec5011530b08ef594248341
 SHA256: 488e4e86a97bdfcb12c396d14c9bc3e8666e810c5435023d7d8b530b5924e391
 SHA512: 3f6e98636a622bf41f76582af5fd78a65985e64a70b9cbb29040bbfff832dee0287c46641891f9f3d83464d43c373e6f1862ce966ebfd7d0f8a79d6dd4164b16
+
+Package: net.kenhtao.grayrhino
+Version: 0.5-2
+Section: Tweaks
+Maintainer: Kênh Táo
+Homepage: https://panyolsoft.yourepo.com/pack/grayrhino
+Description: Mở khóa nhà cung cấp dịch vụ SIM.
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.panyolsoft.grayrhino
+Architecture: iphoneos-arm
+Name: GrayRhino VN
+Author: BlueDog <josuealonzorodriguez@gmail.com>
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.grayrhino
+Depiction: https://repo.kenhtao.net/view/8060
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Filename: debs/net.kenhtao.grayrhino.deb
+Size: 342968
+MD5sum: ae4234f0ac2cb356accd58b6f4c0a4ac
+SHA1: 66cf3d26ff5a14e362c975f55e809c12f9eadda9
+SHA256: 3c7a942650c0c69acaa98b835f63d48249ccbe5bbf421b614b7b006dd883e4ba
+SHA512: df967a8d7a7677a945641735bedaf059848cffa30c7c496a90412d57a187bde3ca2e4f4217fafa5331c0f404da1863f09d55a6a259a6912e7d5cf4d5f79b0de8
