@@ -1313,7 +1313,7 @@ Architecture: iphoneos-arm
 Author: Nepeta <repo@hackyouriphone.org>
 Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=unsub
 SileoDepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=unsub
-Section: HYI - Tweaks
+Section: Tweaks
 Description: Disable tweak injection (Substrate/Substitute) in certain apps.
 Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=unsub
 Maintainer: HackYouriPhone <repo@hackyouriphone.org>
