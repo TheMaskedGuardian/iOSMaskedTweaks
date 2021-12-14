@@ -1303,3 +1303,25 @@ MD5sum: c57f2a538b007e8f655ddcb3140804a1
 SHA1: 39ae9a6107ae67236ec5011530b08ef594248341
 SHA256: 488e4e86a97bdfcb12c396d14c9bc3e8666e810c5435023d7d8b530b5924e391
 SHA512: 3f6e98636a622bf41f76582af5fd78a65985e64a70b9cbb29040bbfff832dee0287c46641891f9f3d83464d43c373e6f1862ce966ebfd7d0f8a79d6dd4164b16
+
+Package: com.pixelomer.tweakexcluder
+Name: TweakConfigurator
+Depends: mobilesubstrate, preferenceloader, firmware (>=11.0)
+Architecture: iphoneos-arm
+Description: Configure tweaks yourself!
+  Features:
+  - You can choose to not load specific tweaks in specific apps.
+  - You can completely disable tweaks in specified apps.
+  Requires iOS 11 or higher. Tested with Electra and unc0ver on iOS 11.3.1 and unc0ver on iOS 12.1.2.
+  Works with both Substrate and Substitute.
+Maintainer: pixelomer
+Author: pixelomer
+Section: Tweaks
+Version: 0.3-2
+Installed-Size: 336
+Filename: debs/com.pixelomer.tweakexcluder.deb
+Size: 26540
+MD5sum: 7e780dc529fc3bce1b43dd8a7a0b0940
+SHA1: ebf50dc11aaa10221dec2df07cfd94753190522a
+SHA256: d5496ee4bf68a600ada89382a57a963d6e6e4ba086764f0b14de3f924174bbb6
+SHA512: e0025c9a6b80d18039272733bde3dd537d885721e53ffbf74781688d64ec0982edff93dd70ea86b99f3bd6762a343d5251388b00b2a1b6fdeae3e14392bfbf37
