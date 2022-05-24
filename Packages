@@ -1216,6 +1216,27 @@ SHA1: ede17cf776060a179c6528adab5b82e61da87ee4
 SHA256: 2eb38123c61fadeff3c45dba8498d4de6ae979370332d616fe4a78d5a86aaa56
 SHA512: d0ad256c0b63f3bc40cc90edc3bbe24c3d86bd5d6300c9ef46bf3568843e2b0b09a63d081fe958c3edec17d3ccc1db68099cbf16080967645883de8544bc228a
 
+Package: net.kenhtao.callbarxs
+Version: 4.0-127
+Section: Tweaks
+Maintainer: Kênh Táo
+Description: Đừng để các cuộc gọi đến làm phiền bạn!
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware ( >= 12), net.kenhtao.limneos
+Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Architecture: iphoneos-arm
+Installed-Size: 1708
+Name: CallBar XS (iOS 12 - 14) VN
+Author: Elias Limneos
+Sileodepiction: http://repo.kenhtao.net/sileo-depiction/net.kenhtao.callbarxs
+Depiction: https://repo.kenhtao.net/view/6449
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Filename: debs/net.kenhtao.callbarxs_4.0-127.deb
+Size: 543600
+MD5sum: 84db61966f1ed289b3fabe101bf63e6c
+SHA1: 26aff744cbeac6907e8d26abc1e3dd353f859872
+SHA256: 50f7ecdd9c33222d676587e307ad524fb4f908075ff1b6c3b9139e04763c85b1
+SHA512: 0e85eeec3ed8cb3fac90feba74b08565b43b556a5ffb7b05c0a1e649dc04ae6bf6629988a0cfbd998a9969f71050ce9e8168f8c4aca80d292e023500d8228f7e
+
 Package: net.kenhtao.limneos
 Version: 2.0
 Priority: optional
