@@ -1344,3 +1344,20 @@ MD5sum: 66e2d34703c907df971c108833f62da2
 SHA1: 889fcc87aa1222e9161afad1966a2c27ea54f22e
 SHA256: 1499dd20ab4cbb0262deb0061632fbcda80eddc8216190e2a13036abb8e6a68f
 SHA512: 095cc1cd2ba8d1627f95336c9adad8d89ba5f02eeb1972266bec308d1fd3694d9a1436c8c8516cf517130767001e2bce583be6349f4eb43c8590cd363175fc32
+
+Package: com.imkpatil.easyeditalarms
+Name: EasyEditAlarms
+Version: 1.1.3
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 152
+Author: P2KDev <p2kdev@gmail.com>
+Maintainer: P2KDev <p2kdev@gmail.com>
+Description: Edit Alarms with a single tap!
+Filename: debs/com.imkpatil.easyeditalarms_1.1.3.deb
+Size: 4726
+MD5sum: 83a407536765ba7515ac2fe731c932e8
+SHA1: fc86a47bc96b70f35825e314270855ddb62233c0
+SHA256: 83fe859c1411a696256774d01872c18060e67b32603a8622e1f917bc61ff7bfa
+SHA512: f436cc7a10c853865591d41619bfbb596e73f0ef5c9d85133965854dff1dfd5f5bf2c4760a39031107a7a9e5aa7fb9bc751997dc2cc30eba58ccf719b3ba85d2
