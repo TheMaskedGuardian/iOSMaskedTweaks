@@ -173,6 +173,24 @@ SHA1: ab246a78891af22c1fec8feda7fd1d354ba0d2b0
 SHA256: 25835a3e6965ae7582f44e9454191be788d5ed56d67ab244aae553bbad317833
 SHA512: 56ddb94eaf7332d792d55232927c29580819e0c199df0a107f46a8f6835e5dd998b00463fdf77be08b1dc09b6f9bda7868ce9017a865a12093bfe73e8fcbf451
 
+Package: com.julioverne.spotilife
+Name: Spotilife
+Author: julioverne
+Version: 1.8
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Spotify Unlimited Skips, Remove ADs, Extreme Quality Stream Unlocked... Requires Spotify App (AppStore)
+Homepage: https://twitter.com/ijulioverne
+Maintainer: PinCode <pbradjan94@gmail.com>
+Section: Tweaks
+Depiction: https://julio.hackyouriphone.org/description.html?id=com.julioverne.spotilife
+Filename: debs/com.julioverne.spotilife_1.8.deb
+Size: 209868
+MD5sum: d29741fad978e39447f7f535d5f277b2
+SHA1: 8f082250234f0fef67d57beac0cc214c07be2ee7
+SHA256: 8a6b464865d436979cfda9f814e270a3f37c1e2dda88ba625cb3d473499f34df
+SHA512: b44101a60c185b48f00e54ac5d07f2a1f3203ee617551bc7d0229bd0934586b669a8c842a3cbb96a33f7b6d7ed0ca2d8f4ace7ff21f5d67f6bb5dd0de3ea5b00
+
 Package: com.julioverne.ytmusilife
 Name: YTMusilife
 Author: julioverne
